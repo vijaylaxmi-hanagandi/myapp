@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+     background-color:rgb(220, 245, 245);
+     background-image: url("./images/orange.jpg");
+     background-size: cover;
+    font-family: cursive;
+}
+
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+  
+
+.nav a:hover{
+    color: navy;
+    font-weight: 300;
+}
+
